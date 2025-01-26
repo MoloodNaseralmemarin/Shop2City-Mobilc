@@ -1,0 +1,7 @@
+{
+  "name": "Shop2City-Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
