@@ -35,3 +35,34 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+
+@import "animate.css/animate.min.css";
+
+
+
+@font-face {
+    font-family: 'IranSans';
+    src: url('./assets/fonts/IRANSansWeb.eot');
+    /* IE9 Compat Modes */
+    src: url('./assets/fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+    url('./assets/fonts/IRANSansWeb.woff') format('woff'),
+      /* Pretty Modern Browsers */
+    url('./assets/fonts/IRANSansWeb.woff2') format('woff2'),
+      /* Pretty Modern Browsers */
+    url('./assets/fonts/IRANSansWeb.ttf') format('truetype')
+    /* Safari, Android, iOS */
+  }
+  
+  * {
+    font-family: "IranSans";
+  }
+  html,body{
+    direction: rtl;
+  }
+  ion-icon {
+    font-size: 40px;
+    color: #007bff;
+  }
+  

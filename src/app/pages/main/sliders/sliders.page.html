@@ -1,0 +1,14 @@
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- داینامیک کردن اسلایدها -->
+    <div class="swiper-slide" *ngFor="let slider of sliders">
+      <img [src]="slider.urlImage" [alt]="slider.title">
+      <h3>{{ slider.title }}</h3>
+    </div>
+  </div>
+  <!-- Pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- Navigation buttons -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
